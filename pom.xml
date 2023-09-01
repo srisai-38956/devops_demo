@@ -30,14 +30,13 @@
                 <sonar.host.url>
                   http://localhost:9099
                 </sonar.host.url>
-<sonar.token>sqp_7b58f5037f0f40d89bb387a7ff8fbc203144f971</sonar.token>
-<sonar.login>admin</sonar.login>
-<sonar.password>vujwal@24</sonar.password>
+<sonar.login>sqp_ea90714a2ae7d9f01b45aa85f9f495d184e3db76</sonar.login>
+<!--<sonar.login>admin</sonar.login>
+<sonar.password>vujwal@24</sonar.password>-->
             </properties>
         </profile>
      </profiles>
-
-
+  
   <dependencies>
 <!-- https://mvnrepository.com/artifact/org.sonarsource.scanner.maven/sonar-maven-plugin -->
 <dependency>
