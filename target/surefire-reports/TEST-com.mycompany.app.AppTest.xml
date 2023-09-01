@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mycompany.app.AppTest" time="0.031" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mycompany.app.AppTest" time="0.016" tests="1" errors="0" skipped="0" failures="0">
   <properties>
+    <property name="sonar.projectName" value="&apos;devops&apos;"/>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sonar.host.url" value="http://localhost:9099"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\BCL\Desktop\my-app\target\test-classes;C:\Users\BCL\Desktop\my-app\target\classes;C:\Users\BCL\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\BCL\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.class.path" value="C:\Users\BCL\Desktop\my-app\target\test-classes;C:\Users\BCL\Desktop\my-app\target\classes;C:\Users\BCL\.m2\repository\org\sonarsource\scanner\maven\sonar-maven-plugin\3.9.1.2184\sonar-maven-plugin-3.9.1.2184.jar;C:\Users\BCL\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.4\plexus-sec-dispatcher-1.4.jar;C:\Users\BCL\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar;C:\Users\BCL\.m2\repository\org\codehaus\plexus\plexus-utils\3.2.1\plexus-utils-3.2.1.jar;C:\Users\BCL\.m2\repository\org\sonarsource\scanner\api\sonar-scanner-api\2.16.2.588\sonar-scanner-api-2.16.2.588.jar;C:\Users\BCL\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\BCL\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\BCL\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +17,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\BCL\AppData\Local\Temp\surefire2742219261719556736\surefirebooter15214059328455010566.jar C:\Users\BCL\AppData\Local\Temp\surefire2742219261719556736 2023-08-29T15-21-58_845-jvmRun1 surefire11659500994903720360tmp surefire_05102828195840682346tmp"/>
+    <property name="sun.java.command" value="C:\Users\BCL\AppData\Local\Temp\surefire15403336163847197890\surefirebooter6523804646532668669.jar C:\Users\BCL\AppData\Local\Temp\surefire15403336163847197890 2023-08-30T15-03-11_321-jvmRun1 surefire14574618826135345885tmp surefire_07317235187327847072tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\BCL\Desktop\my-app\target\test-classes;C:\Users\BCL\Desktop\my-app\target\classes;C:\Users\BCL\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\BCL\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\BCL\Desktop\my-app\target\test-classes;C:\Users\BCL\Desktop\my-app\target\classes;C:\Users\BCL\.m2\repository\org\sonarsource\scanner\maven\sonar-maven-plugin\3.9.1.2184\sonar-maven-plugin-3.9.1.2184.jar;C:\Users\BCL\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.4\plexus-sec-dispatcher-1.4.jar;C:\Users\BCL\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar;C:\Users\BCL\.m2\repository\org\codehaus\plexus\plexus-utils\3.2.1\plexus-utils-3.2.1.jar;C:\Users\BCL\.m2\repository\org\sonarsource\scanner\api\sonar-scanner-api\2.16.2.588\sonar-scanner-api-2.16.2.588.jar;C:\Users\BCL\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\BCL\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\BCL\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\BCL"/>
     <property name="user.language" value="en"/>
@@ -30,7 +32,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\BCL\AppData\Local\Temp\surefire2742219261719556736\surefirebooter15214059328455010566.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\BCL\AppData\Local\Temp\surefire15403336163847197890\surefirebooter6523804646532668669.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.8+9-LTS-211"/>
@@ -43,13 +45,15 @@
     <property name="localRepository" value="C:\Users\BCL\.m2\repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\BCL\AppData\Local\Temp\"/>
+    <property name="sonar.token" value="sqp_7b58f5037f0f40d89bb387a7ff8fbc203144f971"/>
     <property name="java.version" value="17.0.8"/>
     <property name="user.dir" value="C:\Users\BCL\Desktop\my-app"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python311\Scripts\;C:\Python311\;C:\oraclexe\app\oracle\product\10.2.0\server\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Java\jdk1.8.0_65\bin;C:\Program Files (x86)\Common Files\Acronis\VirtualFile\;C:\Program Files (x86)\Common Files\Acronis\VirtualFile64\;C:\Program Files (x86)\Common Files\Acronis\FileProtector\;C:\Program Files (x86)\Common Files\Acronis\FileProtector64\;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-17\bin;C:\Users\BCL\Desktop\Devoops\apache-maven-3.9.4-bin\apache-maven-3.9.4\bin;C:\Program Files\apache-maven-3.9.4\bin;C:\Users\BCL\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\BCL\AppData\Local\Programs\Python\Python310\;C:\Users\BCL\AppData\Local\Microsoft\WindowsApps;;C:\Users\BCL\Desktop\Microsoft VS Code\bin;C:\Users\BCL\AppData\Roaming\npm;C:\Users\BCL\.dotnet\tools;."/>
+    <property name="sonar.projectKey" value="devops"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python311\Scripts\;C:\Python311\;C:\oraclexe\app\oracle\product\10.2.0\server\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Java\jdk1.8.0_65\bin;C:\Program Files (x86)\Common Files\Acronis\VirtualFile\;C:\Program Files (x86)\Common Files\Acronis\VirtualFile64\;C:\Program Files (x86)\Common Files\Acronis\FileProtector\;C:\Program Files (x86)\Common Files\Acronis\FileProtector64\;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-17\bin;C:\Program Files\apache-maven-3.9.4\bin;C:\Users\BCL\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\BCL\AppData\Local\Programs\Python\Python310\;C:\Users\BCL\AppData\Local\Microsoft\WindowsApps;;C:\Users\BCL\Desktop\Microsoft VS Code\bin;C:\Users\BCL\AppData\Roaming\npm;C:\Users\BCL\.dotnet\tools;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="17.0.8+9-LTS-211"/>
